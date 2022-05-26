@@ -11,7 +11,7 @@ public class KDATracker {
 	
 	public void addGame(String name, GameStats game) {
 		if (!games.containsKey(name)) {
-		games.put(name, game);
+			games.put(name, game);
 		} else { System.out.println("Game already exists in directory"); }
 	}
 	
